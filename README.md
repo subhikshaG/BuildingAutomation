@@ -2,6 +2,7 @@
 
 Building automation can be done using the IOT device - **Raspberry Pi**. Install OpenCV python in your pi before beginning the project. This project allows you to control the appliances like AC,lights automatically using the Haar Cascade Algorithm based on human face detection and manually through Google assistance or Adafruit Dashboard.
 
+## Architecture Diagram
 ![Architecture Diagram](Images/ArchitectureDiagram.PNG)
 
 - The MQTT broker is at the heart of any publish/subscribe protocol. Here, the MQTT clients include the **Adafruit dashboard, Google Assistant and Raspberry Pi**.   
