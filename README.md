@@ -16,6 +16,6 @@ Building automation can be done using the IOT device - **Raspberry Pi**. Install
 
 ## Circuit Diagram
 
-<img src="Images/rpiproject3_bb.jpg" width="500" height="700" >
+<img src="Images/rpiproject3_bb.jpg" width="420" height="700" >
 
 The diagram shows the connections that must be done with the Raspberry Pi.
