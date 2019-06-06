@@ -1,5 +1,6 @@
 # Building Automation
 
+![](Images/ArchitectureDiagram.PNG)
 The MQTT broker is at the heart of any publish/subscribe protocol. Here, the MQTT clients include the Adafruit dashboard, Google Assistant and Raspberry Pi.   
 Auto control is chosen by the user, and then the automation is activated. When an object enters the room or hallway, the webcam is used to detect if it is a human face. The human face can be detected using the Haar Cascade algorithm. Using machine learning, only human object is taken into consideration.
  If the object is a human, the sensors and API detect the environment variables which include luminance, temperature and analyze them. Light Dependent Resistor is used to analyze the ambient light and required API is used to get the current temperature. Different lighting has different luminance value. If the lighting is not adequate, then the required lights may be turned on.
